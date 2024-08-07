@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>New Portfolio</title>
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script> -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <section id="loading">
+        <div class="sk-chase">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+    </section>
+    <button id="btn"><i><i class="fa-solid fa-arrow-up"></i></i></button>
+    <header>
+        <div class="container">
+            <div class="logo">Portf<span>olio</span></div>
+            <i class="fa-solid fa-bars toggle-menue" id="Toggle"></i>
+            <ul class="nav" id="list">
+                <li class="active"><a href="#Home">Home</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li><a href="#Portoflio">Portoflio</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#Contact">contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="home" id="Home">
+        <div class="container">
+            <h1>Belal Wael</h1>
+            <p>Hi,My name is Belal and Iam a web developer</p>
+            <a href="Belal Wael Badawy.pdf">View CV</a>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100071657590025" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/belalwael/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/BatnainBelal" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://github.com/Belal-Wael" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+    <section id="testimonial">
+        <h1 class="shadow-text">TESTIMONIALS</h1>
+        <div class="container">
+            <img src="" alt="">
+            <h2>Ahmed Ali</h2>
+            <span>Engineer</span>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Quo cumque, voluptatibus, cupiditate officia placeat autem eius inventore harum laudantium fuga facilis voluptatem blanditiis itaque asperiores earum tempora nesciunt totam officiis.
+            </p>
+        </div>
+        <span></span>
+        <span></span>
+        <span></span>
+    </section>
+    <section id="Portoflio">
+        <h1 class="shadow-text">PORTOFOLIO</h1>
+        <div class="container">
+            <div class="image">
+                <a href="https://belal-wael.github.io/CodeAlpha_ExpenseTracer/"><img src="images/expenstracer.png" alt=""></a>
+            </div>
+            <div class="image">
+                <a href="https://belal-wael.github.io/countdown-timer/"><img src="images/counter.png" alt=""></a>
+            </div>
+            <div class="image">
+                <a href="https://belal-wael.github.io/Weather-App/"><img src="images/weatherapp.png" alt=""></a>
+            </div>
+            <div class="image">
+                <a href="#"><img src="images/clothingstore.png" alt=""></a>
+            </div>
+            <div class="image">
+                <a href="https://belal-wael.github.io/Kasper_template-2/"><img src="images/template2.png" alt=""></a>
+            </div>
+            <div class="image">
+                <a href="https://belal-wael.github.io/CodeAlpha_Portfolio/"><img src="images/portofolio.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <section id="profile">
+        <h1 class="shadow-text">PROFILE</h1>
+        <div class="container">
+            <div class="info">
+                <img src="images/WhatsApp Image 2024-06-20 at 4.17.42 PM.jpeg" alt="">
+                <P class="aboutme">
+                    Hello, I'm Bilal, a web development specialist with a strong background in computer science and artificial intelligence. 
+                    Currently studying at the Faculty of Computer Science and Artificial Intelligence, 
+                    I possess extensive experience in software engineering and a deep passion for creating impactful web solutions.
+    
+                    My journey includes completing virtual internships at CodeAlpha and TechnoHacks EduTech, 
+                    where I honed my skills in web development and tackled various challenges. 
+                    I thrive in dynamic environments and am committed to achieving exceptional results.
+                </P>
+            </div>
+        </div>
+    </section>
+     <!-- start contact  -->
+     <div class="contact" id="Contact">
+        <h1 class="shadow-text">CONTACT</h1>
+        <div class="container">
+            <form action="">
+                <div class="box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="15" placeholder="Your Message"></textarea>
+                <input type="submit" class="btn" value="Send Message">
+            </form>
+        </div>
+    </div>
+    <!-- end contact  -->
+    <!-- start footer -->
+    <footer>
+        <p>&copy; 2024 by Belal Batnain</p>
+    </footer>
+    <!-- end footer -->
+
+    <script src="index.js"></script>
+</body>
+</html>
